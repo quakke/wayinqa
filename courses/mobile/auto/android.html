@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакты</title>
+    <title>Курсы по QA</title>
     <!-- Подключение файлов Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-image: url('images/contact-background-image.jpg');
+            background-image: url('images/courses-background-image.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -38,42 +38,33 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Главная</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Курсы
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <div class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="#">Manual QA (Mobile)</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="courses/mobile/manual/junior.html">Junior</a>
-                                <a class="dropdown-item" href="courses/mobile/manual/middle.html">Middle</a>
-                                <a class="dropdown-item" href="courses/mobile/manual/senior.html">Senior</a>
-                            </div>
-                        </div>
-                        <div class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="#">AQA (Mobile)</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="courses/mobile/auto/android.html">Android</a>
-                                <a class="dropdown-item" href="courses/mobile/auto/ios.html">iOS</a>
-                            </div>
-                        </div>
-                    </div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="courses.html">Курсы <span class="sr-only">(текущая)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">О нас</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Контакты <span class="sr-only">(текущая)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Контакты</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div class="container mt-5">
-        <h1 class="text-center">Контакты</h1>
-        <p>Форма обратной связи.</p>
-        <p>Контактная информация для вопросов и сотрудничества.</p>
+        <h1 class="text-center">Manual QA (mobile)</h1>
+
+        <div class="row">
+            <div class="col">
+                <h2>Автоматизация тестирования с использованием Kaspresso+Kotlin</h2>
+                <ul>
+                    <li>Основы автоматизации тестирования на платформе Android</li>
+                    <li>Использование Kaspresso и языка Kotlin для написания тестов</li>
+                    <li>Автоматизация UI-тестирования мобильных приложений</li>
+                    <li>Интеграция автоматизации тестирования в CI/CD</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!-- Подключение файлов Bootstrap JS и Popper.js (необходимо для работы некоторых компонентов) -->
