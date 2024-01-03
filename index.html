@@ -28,12 +28,31 @@
 </head>
 <body>
 
-    <div class="container mt-4">
-        <!-- Вставка навигационного меню с использованием тега iframe -->
-        <iframe src="navigation.html" width="100%" height="50px" frameborder="0"></iframe>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Меню</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Главная <span class="sr-only">(текущая)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Курсы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <div class="container mt-5">
-        <h1 class="text-center">Главная страница</h1>
+    <div class="container mt-5">
+        <h1 class="text-center">Пример с использованием Bootstrap</h1>
 
         <div class="row mt-4">
             <div class="col-md-6">
@@ -54,8 +73,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
     </div>
 
     <!-- Подключение файлов Bootstrap JS и Popper.js (необходимо для работы некоторых компонентов) -->
