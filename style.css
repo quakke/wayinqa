@@ -1,0 +1,21 @@
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+/* Добавление отступа после закрытия div */
+.bottom-margin {
+    margin-bottom: 20px; /* Выберите подходящее значение отступа */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    vertical-align: top; /* Это выравнивание текста сверху */
+}
