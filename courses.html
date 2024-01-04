@@ -38,8 +38,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Главная</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="courses.html">Курсы <span class="sr-only">(текущая)</span></a>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="courses.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Курсы
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="courses/mobile/manual/junior.html">Junior</a>
+                        <a class="dropdown-item" href="courses/mobile/manual/middle.html">Middle</a>
+                        <a class="dropdown-item" href="courses/mobile/manual/senior.html">Senior</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="courses/mobile/auto/android.html">Android</a>
+                        <a class="dropdown-item" href="courses/mobile/auto/ios.html">iOS</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">О нас</a>
@@ -51,7 +61,10 @@
         </div>
     </nav>
 
-    <p>Тут список курсов</p>
+    <div class="container mt-5">
+        <h1 class="text-center">Тут список курсов и ссылки на страницы</h1>
+        <p>Какая-то ссылка</p>
+    </div>
 
     <!-- Подключение файлов Bootstrap JS и Popper.js (необходимо для работы некоторых компонентов) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
